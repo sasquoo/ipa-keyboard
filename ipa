@@ -1,0 +1,58 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "IPA";
+
+    key <TLDE> { [ grave, U0303, U031A, U0330 ] };
+    key <AE01> { [ U01C3, U01C2, U01C0, U01C1 ] };
+    key <AE02> { [ U00E6, U0153, U0276 ] };
+    key <AE03> { [ U025C, U025E, U026C, U026E ] };
+    key <AE04> { [ U027E, U027D, U02DE, U027A ] };
+    key <AE05> { [ U02A1, U02A2, U029C, U0267 ] };
+    key <AE06> { [ U0301, U030B, U030C, U0304 ] };
+    key <AE07> { [ U0300, U030F, U0302 ] };
+    key <AE08> { [ U0318, U0319, U031D, U031E ] };
+    key <AE09> { [ U0361, U031C, U032F ] };
+    key <AE10> { [ U203F, U0339, U0306 ] };
+    key <AE11> { [ U0320, any, U0325, U030A ] };
+    key <AE12> { [ U0347, U031F, U032C ] };
+
+    key <AD01> { [ q, U0298, U207F ] };
+    key <AD02> { [ w, U028D, U02B7 ] };
+    key <AD03> { [ e, U0259, U025B, U0258 ] };
+    key <AD04> { [ r, U0279, U0281, U0280 ] };
+    key <AD05> { [ t, U03B8, U0288 ] };
+    key <AD06> { [ y, U028F, U028E, U0264 ] };
+    key <AD07> { [ u, U028A, U0289 ] };
+    key <AD08> { [ i, U026A, U0268 ] };
+    key <AD09> { [ o, U00F8, U0254, U0275 ] };
+    key <AD10> { [ p, U0278 ] };
+    key <AD11> { [ bracketleft, U032A, U033C ] };
+    key <AD12> { [ bracketright, U033A, U033B ] };
+    key <BKSL> { [ bar, U2016, backslash ] };
+
+    key <AC01> { [ a, U0250, U0252, U0251 ] };
+    key <AC02> { [ s, U0283, U0282, U0255 ] };
+    key <AC03> { [ d, U00F0, U0256 ] };
+    key <AC04> { [ f ] };
+    key <AC05> { [ U0261, U0263, U02E0] };
+    key <AC06> { [ h, U0266, U02B0, U0127 ] };
+    key <AC07> { [ j, U029D, U02B2, U025F ] };
+    key <AC08> { [ k ] };
+    key <AC09> { [ l, U026D, U026B, U029F ] };
+    key <AC10> { [ U02D1, U02D0, U0324, U0308 ] };
+    key <AC11> { [ U02CC, U02C8, U0329, U02BC ] };
+
+    key <AB01> { [ z, U0292, U0290, U0291 ] };
+    key <AB02> { [ x, U03C7, U033D ] };
+    key <AB03> { [ c, U00E7, U02E1 ] };
+    key <AB04> { [ v, U028C, U028B, U2C71 ] };
+    key <AB05> { [ b, U03B2, U0299 ] };
+    key <AB06> { [ n, U014B, U0272, U0273 ] };
+    key <AB07> { [ m, U0271, U026F, U0270 ] };
+    key <AB08> { [ comma, U2197, any, U2191 ] };
+    key <AB09> { [ period, U2198, U25CC, U2193 ] };
+    key <AB10> { [ slash, U0294, U02E4, U0295 ] };
+
+    include "level3(ralt_switch)"
+};
